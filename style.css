@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.text{
+    display: none;
+}
+h2{
+    color: red;
+
+}
+h2[data-color]{
+    color: gold;
+}
+h2[data-color="salmon"]{
+    color: salmon;
+}
+
+/* b,strong{
+    background-color: dodgerblue;
+} */
+
+.box:has(p){
+    background-color: black;
+}

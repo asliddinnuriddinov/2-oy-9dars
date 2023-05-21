@@ -1,0 +1,451 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    max-width: 1160px;
+    margin-left: 227px;
+    margin-right: 50px;
+    margin-top: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 39px;
+}
+.nav-logo{
+    flex: 1;
+}
+nav > ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0 40px;
+}
+nav > ul > li{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+
+color: #000000;
+
+}
+
+.showcase{
+    max-width: 1280px;
+    
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+    border-radius: 30px;
+    margin: 0 auto;
+    display: flex;
+    
+    gap: 0 50px;
+    padding: 75px 0 75px 210px;
+}
+.showcase-text{
+    max-width: 360px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 90px;
+}
+.showcase-text h2{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 700;
+font-size: 68px;
+line-height: 110px;
+/* identical to box height */
+
+
+color: #0B0B0B;
+}
+.showcase-text-logo{
+    display: flex;
+    gap: 0 5px;
+}
+.showcase-logo{
+    max-width: 274px;
+    height: 80px;
+border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+overflow: hidden;
+}
+
+.showcase-btn{
+    display: flex;
+    justify-content: flex-start;
+    gap: 0 10px;
+}
+.showcase-btn-1{
+    background-color: #000000;
+    border: none;
+    padding: 13px 25px;
+    color: white;
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+
+color: #FFFFFF;
+
+}
+.showcase-btn-2{
+    padding: 13px 26px;
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+
+color: #000;
+border: 1px solid #000000;
+background-color: rgba(0, 0, 0, 0);
+
+}
+
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.shops{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-left: 240px;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+.shops ul{
+    list-style: none;
+    display: flex;
+    gap: 0 90px;
+    margin-top: 40px;
+}
+.shops h3{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 160%;
+/* identical to box height, or 72px */
+
+
+color: #000000;
+
+}
+/*  */
+.honey-creation{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    gap: 0 20px;
+    object-fit: contain;
+    margin-bottom: 100px;
+}
+.honey-creation-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 510px;
+}
+.honey-creation-right h2{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 145%;
+/* or 65px */
+
+
+color: #000000;
+margin-bottom: 30px;
+}
+.honey-creation-right p{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 160%;
+/* or 35px */
+
+
+color: #000000;
+
+opacity: 0.7;
+margin-bottom: 40px;
+}
+.honey-creation-right button{
+    background: #E58211;
+    color: white;
+    padding: 15px 30px ;
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+width: 190px;
+border: none;
+
+color: #FFFFFF;
+}
+/*  */
+
+.honey-taste{
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    gap: 0 20px;
+    object-fit: contain;
+}
+.honey-taste-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 510px;
+}
+.honey-taste-left h2{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 145%;
+/* or 65px */
+
+
+color: #000000;
+margin-bottom: 30px;
+}
+.honey-taste-left p{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 160%;
+/* or 35px */
+
+
+color: #000000;
+
+opacity: 0.7;
+margin-bottom: 40px;
+}
+.honey-taste-left button{
+    background: #E58211;
+    color: white;
+    padding: 15px 30px ;
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+width: 190px;
+border: none;
+
+color: #FFFFFF;
+}
+
+/* product-start */
+
+    .product{
+        max-width: 1150px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px;
+    }
+.product header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}    
+.product header h3{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 160%;
+/* identical to box height, or 72px */
+
+
+color: #000000;
+
+}
+.product header p{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+text-align: right;
+text-decoration-line: underline;
+
+color: #E58211;
+margin-top: 30px;
+}
+
+.honey-product{
+    display: flex;
+    gap: 0 110px;
+    justify-content: center;
+}
+
+.honey-product-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.honey-product-left-left{
+    max-width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.honey-product-left-left h4{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 140%;
+/* or 39px */
+
+
+color: #000000;
+
+}
+.honey-product-left-left p{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+margin-top: 15px;
+margin-bottom: 35px;
+color: #000000;
+
+opacity: 0.7;
+}
+
+.honey-product-left-left button{
+border: none;
+border: 1px solid  #E58211;
+padding: 10px 17px;
+color: #E58211;
+background-color: rgba(0, 0, 0, 0);
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 160%;
+}
+
+
+
+.honey-product-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.honey-product-right-left{
+    max-width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.honey-product-right-left h4{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 140%;
+/* or 39px */
+
+
+color: #000000;
+
+}
+.honey-product-right-left p{
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+margin-top: 15px;
+margin-bottom: 35px;
+color: #000000;
+
+opacity: 0.7;
+}
+
+.honey-product-right-left button{
+border: none;
+border: 1px solid  #E58211;
+padding: 10px 17px;
+color: #E58211;
+background-color: rgba(0, 0, 0, 0);
+font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 160%;
+}
+/* product-end */
+
+/* footer-start */
+
+footer{
+    background: linear-gradient(76.02deg, #FF9D2D 1.66%, #FFD877 93.21%);
+    margin-top: 130px;
+}
+.footer-inner{
+    max-width: 1190px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px;
+}
+.footer-inner p{
+    max-width: 290px;
+    font-family: 'Kodchasan';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 160%;
+/* or 22px */
+
+
+color: #000000;
+
+opacity: 0.7;
+margin-left: 50px;
+margin-right: 80px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 0 36px ;
+    align-items: center;
+    justify-content: center;
+    margin-right: 90px;
+}
+/* footer-end */
